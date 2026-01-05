@@ -1,0 +1,31 @@
+# ===== Build artifacts =====
+*.o
+*.so
+*.a
+
+# Executables (compiled binaries)
+cache1D
+cache2Drows
+cache2Dcols
+cache2Dclash
+a.out
+
+# ===== Pin / cache tool outputs =====
+*.out
+out_*.txt
+*.pin
+*.log
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Misc =====
+*.tmp
+*.bak
