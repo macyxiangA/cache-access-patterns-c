@@ -42,12 +42,16 @@ cache2Dclash.c
 
 ## Build
 
-Compile each source into an executable (32-bit settings shown for compatibility with common IA-32 tooling):
+Build all executables:
 
-    gcc cache1D.c -Wall -m32 -std=gnu99 -o cache1D
-    gcc cache2Drows.c -Wall -m32 -std=gnu99 -o cache2Drows
-    gcc cache2Dcols.c -Wall -m32 -std=gnu99 -o cache2Dcols
-    gcc cache2Dclash.c -Wall -m32 -std=gnu99 -o cache2Dclash
+    make
+
+Or compile each source manually:
+
+    gcc cache1D.c -Wall -Wextra -std=gnu99 -o cache1D
+    gcc cache2Drows.c -Wall -Wextra -std=gnu99 -o cache2Drows
+    gcc cache2Dcols.c -Wall -Wextra -std=gnu99 -o cache2Dcols
+    gcc cache2Dclash.c -Wall -Wextra -std=gnu99 -o cache2Dclash
 
 ## Run (no output expected)
 
